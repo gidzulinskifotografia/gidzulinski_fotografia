@@ -11,7 +11,7 @@
 // Endereço para onde o formulário será enviado
 // **MUITO IMPORTANTE: USE UM E-MAIL DO SEU PRÓPRIO DOMÍNIO NA HOSTINGER**
 // (Ex: contato@gidzulinskifotografia.com.br)
-$receiving_email_address = 'confidecor@confidecor.com.br'; // Usei o e-mail do seu index.html
+$receiving_email_address = 'gidzulinskifotografia@gmail.com'; // Usei o e-mail do seu index.html
 $default_subject = "Nova Mensagem do Site - Gidzulinski";
 
 // Resposta AJAX padrão (O validate.js espera "OK" para sucesso)
