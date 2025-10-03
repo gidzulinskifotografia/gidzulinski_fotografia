@@ -3455,3 +3455,30 @@ section,
     height: 450px;
   }
 }
+
+/* --- ESTILOS PARA O VÍDEO DE EVENTOS CORPORATIVOS --- */
+.video-container {
+    /* Centraliza o vídeo na tela */
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Adiciona margem vertical */
+}
+
+.video-container video {
+    /* Garante que o vídeo não ultrapasse sua largura nativa de 720px */
+    max-width: 720px;
+    
+    /* Garante que o vídeo nunca ultrapasse 100% da largura da tela do dispositivo */
+    width: 100%;
+    
+    /* Altura se ajusta proporcionalmente */
+    height: auto;
+    
+    /* Estilos visuais */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- FIM ESTILOS VÍDEO --- */
