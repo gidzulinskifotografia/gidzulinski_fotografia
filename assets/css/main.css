@@ -1197,6 +1197,7 @@ section,
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   z-index: 2;
+  transform: scaleX(-1);
 }
 
 .about .about-image-grid .img-grid-tertiary {
@@ -2745,6 +2746,8 @@ section,
 
 .team .team-carousel .swiper-slide {
   height: auto;
+  object-fit: fill;
+  object-position: top;
 }
 
 /*--------------------------------------------------------------
@@ -3020,9 +3023,17 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+/* .service-details .swiper-wrapper .fit {
+  height: fit-content !important;
+  object-fit: cover;
+  object-position: top;
+} */
+
 .service-details .swiper-wrapper {
   height: auto !important;
 }
+
+
 
 .service-details .service-sidebar {
   position: sticky;
@@ -3457,6 +3468,16 @@ section,
     /* Reduz a altura do slider para se adequar a telas menores */
     height: 450px;
   }
+}
+
+.page-fotografia-familia .service-details .swiper-wrapper,
+.page-fotografia-familia .service-details .swiper-slide {
+    /* Força o swiper-wrapper e o slide a ocuparem 100% da altura do seu container (600px/450px) */
+    height: 100% !important;
+}
+
+.page-fotografia-familia .service-details .service-details-slider .swiper-slide img {
+  object-position: top;
 }
 
 /* --- ESTILOS PARA O VÍDEO DE EVENTOS CORPORATIVOS --- */
