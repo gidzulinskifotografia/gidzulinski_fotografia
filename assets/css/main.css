@@ -1180,6 +1180,7 @@ section,
   width: 70%;
   height: 350px;
   object-fit: cover;
+  object-position: top;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   z-index: 1;
@@ -1192,6 +1193,7 @@ section,
   width: 50%;
   height: 220px;
   object-fit: cover;
+  object-position: top;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   z-index: 2;
@@ -1204,6 +1206,7 @@ section,
   width: 40%;
   height: 260px;
   object-fit: cover;
+  object-position: top;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   z-index: 3;
